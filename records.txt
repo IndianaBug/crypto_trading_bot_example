@@ -1,0 +1,2 @@
+timestamp,symbol,profit_usdt,percentage
+
