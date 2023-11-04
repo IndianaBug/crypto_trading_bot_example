@@ -8,17 +8,17 @@ from binance.um_futures import UMFutures as Binance_UMFutures
 from binance.lib.utils import config_logging
 from binance.error import ClientError
 import math
-import bitget.spot.wallet_api as spot_wallet_bitget
-import bitget.mix.position_api as futures_position_bitget
-import bitget.spot.account_api as spot_accounts_bitget
-import bitget.mix.account_api as futures_accounts_bitget
-import bitget.spot.order_api as spot_order_bitget
-import bitget.mix.order_api as futures_order_bitget
-import bitget.spot.market_api as spot_market_bitget
-import bitget.mix.market_api as futures_market_bitget
-import bitget.spot.public_api as spot_public_bitget
-from bitget_v2.v2.mix.order_api import OrderApi as futures_OrderApi_2
-from bitget_v2.v2.spot.wallet_api import WalletApi as spot_walletApi_2
+import bitget_v1.spot.wallet_api as spot_wallet_bitget
+import bitget_v1.mix.position_api as futures_position_bitget
+import bitget_v1.spot.account_api as spot_accounts_bitget
+import bitget_v1.mix.account_api as futures_accounts_bitget
+import bitget_v1.spot.order_api as spot_order_bitget
+import bitget_v1.mix.order_api as futures_order_bitget
+import bitget_v1.spot.market_api as spot_market_bitget
+import bitget_v1.mix.market_api as futures_market_bitget
+import bitget_v1.spot.public_api as spot_public_bitget
+from bitget_v2.mix.order_api import OrderApi as futures_OrderApi_2
+from bitget_v2.spot.wallet_api import WalletApi as spot_walletApi_2
 import hmac
 import base64
 import json
