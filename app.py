@@ -28,11 +28,11 @@ bot = Executor(apis=apis,
                spread_expansion=0.0000, 
                is_testing=True
                )
-# # Do this everytime you turn on the bot
-# bot.bitget_futures_change_leverage_ALL(leverage=1)
-# bot.bitget_futures_changePosMode(productType='USDT-FUTURES', posMode='one_way_mode')
-# bot.set_positionHoldMode_binance()
-# bot.adjust_ALL_binance_leverage(leverage=1)
+# Do this everytime you turn on the bot
+bot.bitget_futures_change_leverage_ALL(leverage=1)
+bot.bitget_futures_changePosMode(productType='USDT-FUTURES', posMode='one_way_mode')
+bot.set_positionHoldMode_binance()
+bot.adjust_ALL_binance_leverage(leverage=1)
 
 async def consume():
     global latest_message
