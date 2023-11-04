@@ -4,19 +4,19 @@ import json
 from neutral_trade_executor import Executor
 latest_message = None
 
-apis = {"binance_master_api" : "zWMs9P8CayaffAKQkJpjPMREe0gTlEvSu48dRUt9efMIKX9wXCdoTob4yF0NEzyT",
-        "binance_master_secret" : "AOCXLapVPE0jLya0eHwz63UK9wt2QYHKdzN4l62wg45jzsbCJqkiDKH9TgAxuUfu",
-        "binance_subaccount_api" : "AsjLVroTtvwm2nWOgdz5wAVAwfkb17OKbXpcWBgBrQAiO7VWVdL45wIoChkYiHOX",
-        "binance_subaccount_secret" : "uTnxfGbkBnnSrVhDKvymOoCwSbECDrr8OLhyr4unaMMd9UiiSS8K7YgeVbaXwhYu",
-        "exchange_master_api" : 'bg_95a8562ae59facd339935b8927102b36',
-        "exchange_master_secret" : 'dadbddce552dad54159c1b04c10065e5086a0eb981d359b4a22ffd046ca2d7ea',
-        "exchange_subaccount_api" : 'bg_8c398a0451bddf4296a786b57cbd5dcf',
-        "exchange_subaccount_secret" : 'a11a5d5249e58c2fbedcb6b14eef289b73365db848c2cca811fe34f6f504b78a',
-        "bitget_master_password" : 'ENKHhHgq9tmdBu1265',
-        "bitget_subaccount_password" : '3OhtYz3LcxCC',
-        "bitget_master_ID": "5721424678",
-        "bitget_subaccount_ID": "8010474081",
-        "bitget_master_withdrawal_pass": "E$fEm6JkYNcVfem"
+apis = {"binance_master_api" : "",
+        "binance_master_secret" : "",
+        "binance_subaccount_api" : "",
+        "binance_subaccount_secret" : "",
+        "exchange_master_api" : '',
+        "exchange_master_secret" : '',
+        "exchange_subaccount_api" : '',
+        "exchange_subaccount_secret" : '',
+        "bitget_master_password" : '',
+        "bitget_subaccount_password" : '',
+        "bitget_master_ID": "",
+        "bitget_subaccount_ID": "",
+        "bitget_master_withdrawal_pass": ""
         }
 
 bot = Executor(apis=apis, 
